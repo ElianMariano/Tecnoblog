@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Cadastro</title>
+        <link rel="stylesheet" type="text/css" href="style.css">
+        <meta charset="utf-8">
+    </head>
+    <body>
+        <nav>
+            <div class="menu">
+                <button class="btn">Menu</button>
+                <div class="link">
+                    <a href="./index.html">Home</a>
+                    <a href="./contato.html">Contato</a>
+                    <a href="./cadastro.html">Cadastro</a>
+                    <a href="./dificuldades.html">Dificuldades</a>
+                    <a href="./artigos.html">Artigos</a>
+                </div>
+            </div>
+            <div id="logo"><a href="./index.html"><img src="./imagens/icone.png"></a></div>
+        </nav>
+        <div class="ctn-noticiasPrincipais">
+            <div class="conteiner-ctt">
+            <img src="./imagens/perfil.png">
+            <form method="GET">
+                <div class="ctt-geral">
+                    
+                        <input type="text" name="nome" placeholder="Digite seu nome">
+                        <input type="text" name="rua" placeholder="Digite o nome da rua">
+                        <input type="text" name="cidade" placeholder="Digite o nome da cidade">
+                        <input type="number" name="cep" placeholder="Digite o CEP">
+                        <input type="tel" name="telefone" placeholder="Digite o telefone">
+                        <input type="text" name="profissao" placeholder="Digite sua profissão">
+                        
+                        <!-- <label for="nascimento" id="nascimentoL">Data de nascimento</label> -->
+                        <input type="text" id="nsc" name="nascimento" pattern="(0[1-9]|1[012])[- /.](0[1-9]|[12][0-9]|3[01])[- /.](19|20)\d\d" placeholder="Digite a data de nascimento 00/00/0000">
+
+                        <input type="number" name="cpf" placeholder="Digite o CPF">
+                        <input type="text" name="email" placeholder="Digite seu e-mail">
+
+                        
+                        <div id="estado-civil">
+                            <h4>Estado civil:</h4>
+                            <input type="radio" name="estado-civil" value="solteiro" id="solteiro">
+                            <label for="solteiro">Solteiro/a</label><br>
+                            <input type="radio" name="estado-civil" value="casado" id="casado">
+                            <label for="casado">Casado/a</label><br>
+                            <input type="radio" name="estado-civil" value="viuvo" id="viuvo">
+                            <label for="casado">viuvo/a</label><br>
+                        </div>
+
+                        <div id="sexo">
+                            <h4>sexo:</h4>
+                            <input type="radio" name="sexo" value="m" id="m">
+                            <label for="m">Masculino</label><br>
+                            <input type="radio" name="sexo" value="f" id="f">
+                            <label for="f">Feminino</label><br>
+                            <input type="radio" name="sexo" value="o" id="o">
+                            <label for="o">Outros</label><br>
+                        </div>
+                        
+                        <textarea name="carta" placeholder="Escreva aqui o que deseja"></textarea>
+                    
+                    <div id="enviar">
+                        <input type="reset" value="limpar">
+                        <input type="submit" value="enviar">
+                    </div>
+                    
+                </div>
+                
+            </form>
+        </div>
+        </div>
+        
+        <!--rodape-->
+        <footer>
+            <div id="fot2" align="center">Novidades a um click!</div>
+            <!--troquei o p pelo div e o p do css pelo id pfot-->
+            <div id="pfot">
+                Av. Pinheiros, 94 <br>
+                Alegre-ES <br><br>
+                Email para contato: <br>
+                <a href="tecmania@gmail.com">tecmania@gmail.com</a> <br><br>
+            </div>
+            <div align="center">
+                <a href="...."><img class="icones" src="./imagens/face.png"></a>
+                <a href="...."><img class="icones" src="./imagens/twitter.png"></a>
+                <a href="...."><img class="icones" src="./imagens/instagram.jpg"></a>
+            </div>
+        </footer>
+    </body>
+</html>
