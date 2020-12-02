@@ -14,46 +14,52 @@ body{
 
 /*class e div genéricas
 ----------------------------------------------------*/
-.mono-branco{
-    font-family: monospace;
-    color: white;
-}
-.centro{
-    text-align: center;
-}
-.margin-top-80px{
-    margin-top: 80px;
-}
 
-.margin-top-20px{
-    margin-top: 20px;
-}
-.widht-70{
-    width: 70%;
-}
-.margin-x-auto{
-    margin-left: auto;
-    margin-right: auto;
-}
-.mono-branco{
-    font-family: monospace;
-    color: white;
-}
-.font-20px{
-    font-size: 20px;
-}
-.font-35px{
-    font-size: 35px;
-}
-.centro{
-    text-align: center;
-}
-.widht-90{
-    width: 90%;
-}
-body{
-    background-color: #333;
-}
+    /*class e div de font e alinhamento
+    ----------------------------------------------------*/
+    .mono-branco{
+        font-family: monospace;
+        color: white;
+    }
+    .centro{
+        text-align: center;
+    }
+    .mono-branco{
+        font-family: monospace;
+        color: white;
+    }
+    .font-20px{
+        font-size: 20px;
+    }
+    .font-35px{
+        font-size: 35px;
+    }
+    .centro{
+        text-align: center;
+    }
+
+    /*class e div de margin
+    ----------------------------------------------------*/
+    .margin-top-80px{
+        margin-top: 80px;
+    }
+
+    .margin-top-20px{
+        margin-top: 20px;
+    }
+    .margin-x-auto{
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    /*class e div largura e altura
+    ----------------------------------------------------*/
+    .widht-70{
+        width: 70%;
+    }
+    .widht-90{
+        width: 90%;
+    }
 
 /*Menu
 ----------------------------------------------------*/
