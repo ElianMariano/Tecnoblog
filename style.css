@@ -273,88 +273,6 @@ a:hover {
     color: black;
 }
 
-/*configuranção das pagina de leitura*/
-
-#principal-ntc{
-    overflow: hidden;
-    background-image: url(./imagens/fundo.png);
-}
-
-#leitura{
-    background-color: white;
-    width: 70%;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    margin: 5% 5% 5% 15%;
-    border-radius: 1%;
-    padding-bottom: 2%;
-}
-#leitura h1{
-    padding: 0.2% 0.2% 2% 0.2%;
-    font-size: 2vw;
-}
-#leitura h4{
-    font-weight: normal;
-    font-style: italic;
-    text-indent: 30px;
-    font-size: 1.5vw;
-    padding: 0.2% 0.2% 1% 0.2%;
-}
-#leitura h3{
-    padding: 0.2% 0.2% 2% 0.2%;
-}
-#leitura p{
-    padding: 0.2%;
-    font-size: 1.5vw;
-    text-indent: 3%;
-}
-#leitura section{
-    padding: 2%;
-}
-#leitura blockquote{
-    font-size: 1vw;
-    font-style: italic;
-}
-a blockquote{
-    text-decoration: none;
-}
-a blockquote:visited{
-    color: grey;
-}
-#leitura li{
-    list-style: upper-roman;
-    margin: 0px 0px 0px 3%;
-    font-size: 1.5vw;
-}
-#leitura img{
-    padding:0px;
-    margin: 2% 3% 2% 0%;
-    width: 50%;
-    max-width: 100%;
-    height: auto;
-    float: left;
-}
-#artigoacad{
-    text-align: justify;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 1.6vw;
-}
-#artigoacad h1, h3{
-    padding: 0.2% 0.2% 1% 0.2%;
-}
-#artigoacad h4{
-    font-style: italic;
-}
-#aref {
-    text-decoration: none;
-    margin-left: 70%;
-    font-size: 1.5vw;
-    color: blue;
-}
-#aref:hover {
-    color: grey;
-}
-/* final das alterações Yves: tudo até aqui*/  
-
 /*rodape*/
 /* alterações Yves: mudei a cor do footer*/  
 footer{
@@ -533,15 +451,6 @@ a:link{
         clear: both;
         background-color: #333;
         padding: 10px;
-    }
-
-    #artigo #outras-ntc{
-        display: none;
-    }
-
-    #artigo #leitura{
-        width: 70%;
-        margin: 5% 5% 5% 15%;
     }
 }
 /* final das alterações Yves*/ 
