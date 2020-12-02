@@ -12,8 +12,51 @@ body{
     margin: 0px;
 }
 
+/*class e div genéricas
+----------------------------------------------------*/
+.mono-branco{
+    font-family: monospace;
+    color: white;
+}
+.centro{
+    text-align: center;
+}
+.margin-top-80px{
+    margin-top: 80px;
+}
+
+.margin-top-20px{
+    margin-top: 20px;
+}
+.widht-70{
+    width: 70%;
+}
+.margin-x-auto{
+    margin-left: auto;
+    margin-right: auto;
+}
+.mono-branco{
+    font-family: monospace;
+    color: white;
+}
+.font-20px{
+    font-size: 20px;
+}
+.font-35px{
+    font-size: 35px;
+}
+.centro{
+    text-align: center;
+}
+.widht-90{
+    width: 90%;
+}
+body{
+    background-color: #333;
+}
+
 /*Menu
---------------------------*/
+----------------------------------------------------*/
 nav{
     width: 100%;
     height: 140px;
@@ -73,24 +116,8 @@ nav{
 #logo img {
     width: 250px;
 }
-
-/* alterações Yves: menu secundário*/ 
-/*
-.menu2{
-    margin-left: 15%;
-    margin-right: auto;
-}
-.menu2 a{
-    color:white;
-}
-.menu2 li{
-    font-size: 2vw;
-    display: inline-block;
-    text-decoration: none;
-    list-style: none;
-} */
-/*alterações Yves: mudei o posicionamento e dimencionamento da logo*/ 
-/*Noticias principais - index*/
+/*noticias sobre o assunto
+----------------------------------------------------*/
 #titulo{
     width: 55%;
     background-color: white;
@@ -145,6 +172,9 @@ nav{
     bottom: 0%;
     margin: 2% 18% 2% 2%;
 }
+
+/*Artigo
+----------------------------------------------------*/
 #noticiasp{
     width: 100%;
     height: auto;
@@ -164,8 +194,8 @@ nav{
     overflow: hidden;
 }
 
-/*alterações Yves: tudo até o final das alterações*/
-/*Artigos e notícias - Artigo*/
+/*index
+----------------------------------------------------*/
 
 .ctn-noticiasPrincipais{
     overflow: hidden;

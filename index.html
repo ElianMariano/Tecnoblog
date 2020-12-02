@@ -1,151 +1,32 @@
-<!--alterações yves: tudo
-obs: adicionei bibliotecas do bootstrap como no link:getbootstrap.com.br-->
 <!DOCTYPE html>
-<html lang="pt-br">
-
-<head>
-    <title> Tecmania - HOME</title>
-    <!--icone no titulo-->
-    <link rel="icon" type="image/jpg" href="./imagens/icone.png" />
-    <meta charset="utf-8">
-    <link href="style.css" rel="stylesheet" type="text/css">
-</head>
-
-<body id="home">
-    <div class="ctn-principal">
-        <!--logo + menu-->
-        <nav>
-            <div class="menu">
-                <button class="btn">Menu</button>
-                <div class="link">
-                    <a href="./index.html">Home</a>
-                    <a href="./contato.html">Contato</a>
-                    <a href="./cadastro.html">Cadastro</a>
-                    <a href="./dificuldades.html">Dificuldades</a>
-                    <a href="./artigos.html">Artigos</a>
-                </div>
-            </div>
-            <div id="logo"><a href="./index.html"><img src="./imagens/icone.png"></a></div>
+<html>
+    <head>
+        <title>index</title>
+        <meta charset="uft-8">
+        <link rel="stylesheet" type="text/css" href="style.css">
+    </head>
+    <body class="mono-branco">
+        <nav class="centro margin-top-20px">
+            <a href="./home.html">
+                <img src="./imagens/icone.png" width="250px">
+            </a>
         </nav>
-        <!--parte principal-->
-        <div>
-            <div class="ctn-noticiasPrincipais">
-                <section id="titulo">
-                    <h1>Notícias Principais</h1>
+        <section class="margin-top-80px widht-70 centro margin-x-auto">
+            <article>
+                <section>
+                    <h1 class="font-35px">Apresentação</h1>
+                    <p class="font-20px">A tecmania é um blog feito para atualizar pessoas que tem pouco tempo para buscar informações sobre o mundo da tecnologia. Neste site todas as notícias são apresentadas de forma clara sem enrolação.</p>
+                    <p>A tecmania é um portal de notícias que presa o melhor a nossos leitores.</p>
                 </section>
-                <div id="noticiasp">
-                    <div id="box-1">
-                        <section class="noticiasp">
-                            <a href="artigoY-1.html">
-                                <div class="index-img"><img src="./imagens/ntc1.jpg"></div>
-                                <div class="index-text">
-                                    <h3>coloca em órbita o primeiro satélite com tecnologia 6G do mundo</h3>
-                                    <p>Esse tipo de conexão de internet móvel é até 100 vezes mais rápido que a do 5G,
-                                        disponível no mercado; segundo a estatal CGTN, ele deve operar no rastreio e
-                                        prevenção de desastres ambientais.</p>
-                                </div>
-                            </a>
-                        </section>
-                    </div>
-
-                    <!--<div class="dropdown">
-                        <img src="./imagens/ntc1.jpg" alt="Cinque Terre" width="100" height="50">
-                        <div class="dropdown-content">
-                        <img src="./imagens/ntc1.jpg" alt="Cinque Terre" width="300" height="200">
-                        <div class="desc">Beautiful Cinque Terre</div>
-                        </div>
-                      </div>-->
-                    <div id="box-2">
-                        <section class="noticiasp">
-                            <a href="artigoY-3.html">
-                                <div class="index-img"><img src="./imagens/int.jpg"></div>
-                                <div class="index-text">
-                                    <h3>O Brasil está pronto para a Internet das Coisas?</h3>
-                                    <p>Carros autônomos, wearables, plantações e rebanhos chipados, milhões de
-                                        dispositivos conectados, máquinas conversando entre si… a realidade da Internet
-                                        das Coisas (IoT) já está batendo à nossa porta. Mas estamos prontos para ela?
-                                        Depende.</p>
-                                </div>
-                            </a>
-                        </section>
-                    </div>
-
-                    <div id="box-3">
-                        <section class="noticiasp">
-                            <a href="artigoH-11.html">
-                                <div class="index-img"><img src="./imagens/artigo11-1.webp"></div>
-                                <div class="index-text">
-                                    <h3>Pix impede roubo digital</h3>
-                                    <p>Preocupação com segurança do Pix é comum entre usuários, mas Banco Central
-                                        reforça que sistema tem proteção contra fraudes.</p>
-                                </div>
-                            </a>
-                        </section>
-                    </div>
-
-                    <div id="box-4">
-                        <section class="noticiasp">
-                            <a href="artigoH-14.html">
-                                <div class="index-img"><img src="./imagens/artigo14-1.webp"></div>
-                                <div class="index-text">
-                                    <h3>Google abre projeto open-source do Chrome para mais empresas</h3>
-                                    <p>Mais um desenvolvedor externo está em posição de liderança no projeto Chromium;
-                                        Microsoft é uma das principais aliadas.</p>
-                                </div>
-                            </a>
-                        </section>
-                    </div>
-
-
-                    <div id="box-5">
-                        <section class="noticiasp">
-                            <a href="artigoA-8.html">
-                                <div class="index-img"><img src="./imagens/icone.png"></div>
-                                <div class="index-text">
-                                    <h3>USO DE BLOCKCHAIN NA EDUCAÇÃO: ESTADO DA ARTE E DESAFIOS EM ABERTO</h3>
-                                    <p>Os avanços científicos decorrentes da indústria 4.0 vêm trazendo como resultado
-                                        progressos para os diversos setores da sociedade, dentre eles a educação (NGUYEN
-                                        e DANG, 2018). Um dos conceitos tecnológicos emergentes é o de Blockchain, que
-                                        tem potencial para revolucionar a maneira como a informática é utilizada na
-                                        educação.</p>
-                                </div>
-                            </a>
-                        </section>
-                    </div>
-                    <div id="box-6">
-                        <section class="noticiasp">
-                            <a href="artigoA-9.html">
-                                <div class="index-img"><img src="./imagens/icone.png"></div>
-                                <div class="index-text">
-                                    <h3>OKR E A SUA IMPORTÂNCIA NAS EMPRESAS</h3>
-                                    <p>A inovação é o contexto que muda e transformam as empresas atuais, oriundo de uma
-                                        grande competitividade, as empresas buscam metodologias inovadoras que as
-                                        auxiliem a permanecer no mercado.</p>
-                                </div>
-                            </a>
-                        </section>
-                    </div>
-                </div>
-                <!--outros-->
-            </div>
-            <!--rodape-->
-            <footer>
-                <div id="fot2" align="center">Novidades a um click!</div>
-                <!--troquei o p pelo div e o p do css pelo id pfot-->
-                <div id="pfot">
-                    Av. Pinheiros, 94 <br>
-                    Alegre-ES <br><br>
-                    Email para contato: <br>
-                    <a href="tecmania@gmail.com">tecmania@gmail.com</a> <br><br>
-                </div>
-                <div align="center">
-                    <a href="...."><img class="icones" src="./imagens/face.png"></a>
-                    <a href="...."><img class="icones" src="./imagens/twitter.png"></a>
-                    <a href="...."><img class="icones" src="./imagens/instagram.jpg"></a>
-                </div>
-            </footer>
-        </div>
-    </div>
-</body>
-
+                <section class="margin-top-80px">
+                    <h1 class="font-35px">Desenvolvedores</h1>
+                    <p class="font-20px"> 
+                        Yves Lima Silva<br>
+                        Arthur<br>
+                        Heflain da Rocha Mendes
+                    </p>
+                </section>
+            </article>
+        </section>
+    </body>
 </html>
